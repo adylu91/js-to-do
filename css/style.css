@@ -1,0 +1,133 @@
+/***** normalize.css + tricks *********/
+html{
+    /* 1rem = 10px */
+    font-size: 62.5%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+     box-sizing: inherit;
+}
+
+body{
+    font-size: 1.6rem;
+}
+/**************************************/
+
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: grey;
+    min-height: 100vh;
+    min-width: 100rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;  
+}
+
+.main{
+    background-color: white;    
+    width: 75rem;
+    border: black 2px solid;
+    box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.75);
+    padding: 1rem 1rem 0 1rem;
+}
+
+.section{
+   border: black 2px solid;
+   margin-bottom: 1rem;
+}
+
+.sectionOne{
+   min-height: 10rem; 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.sectionOne__logo{
+    letter-spacing: 1rem;
+    font-weight: 900;
+    font-size: 4rem;
+    text-shadow: 4px 4px 2px rgba(150, 150, 150, 0.5);
+}
+
+.sectionTwo{
+    min-height: 20rem;
+    display: flex;         
+ } 
+
+ .sectionTwo__left,
+ .sectionTwo__rigth{  
+    flex: 1;
+    overflow: hidden;
+    padding: .5rem;
+ }
+
+ .sectionTwo__left__up{
+     height: 50%;
+ }
+
+ .sectionTwo__inputTopicLabel{
+    display: block;
+    font-size: 1.5rem;
+    margin-bottom: .3rem;
+ }
+
+ .sectionTwo__inputTopic{
+    width: 100%;
+    height: 5rem;
+ }
+
+ .sectionTwo__left__down{
+     height: 50%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .btn{
+     margin: 1rem;
+     height: 6rem;
+     width: 8rem;
+     border: black .2rem solid;
+     cursor: pointer;
+ }
+
+.btn-green{
+     background-color: green;
+ }
+
+ .btn-green:hover{
+     background-color: seagreen;
+ }
+
+ .btn-red{
+     background-color: red;
+ }
+
+ .btn-red:hover{
+     background-color: sienna;
+ }
+
+ .sectionThree{
+    min-height: 20rem;    
+ }
+
+ .sectionThree__data{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 1rem;
+     border: black 2px solid;
+     margin: 2rem;
+     background-color: lightgray;   
+     box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.75);  
+ }
+
+ .sectionTree__data__text{
+     width: 80%;
+ }

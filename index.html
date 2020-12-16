@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/js.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <title>toDo</title>
+</head>
+<body>
+    <main class="main">
+
+        <section class="section sectionOne">
+            <h1 class="sectionOne__logo">#ToDo list...</h1>
+        </section>
+
+        <section class="section sectionTwo">
+            <div class="sectionTwo__left">  
+                <div class="sectionTwo__left__up">
+                    <label class="sectionTwo__inputTopicLabel" for="inputTopic">Temat:</label>
+                    <input class="sectionTwo__inputTopic" data-inputTopic type="text" name="temat" id="inputTopic"> 
+                </div>
+                <div class="sectionTwo__left__down">
+                    <button class="btn btn-green" data-btnOK type="submit">OK</button>
+                    <button class="btn btn-red" data-btnRes type="reset">RES</button>
+                </div>
+            </div>
+            <div class="sectionTwo__rigth">
+                <textarea class="sectionTwo__textArea" data-textArea name="text area" id="textArea" cols="40" rows="10"></textarea>
+            </div>
+        </section>
+
+        <section class="section sectionThree" data-sectionThree>
+        
+            <!--
+            <div class="sectionThree__data">
+                <div class="sectionTree__data__text"></div>
+                <button class="btn btn-red" data-btnDel type="reset">X</button>
+            </div>
+            -->
+            
+        </section>
+
+    </main>
+</body>
+</html>
